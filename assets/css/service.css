@@ -1108,11 +1108,6 @@ a,
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
 
 @media (max-width: 992px) {
-
-	#services img {
-				background-size: 50% 50%;
-	      padding: 280px 0 160px 0;
-	}
  .knob, .member {
    margin-bottom: 30px;
  }
@@ -1121,6 +1116,11 @@ a,
 
 @media (max-width: 767px) {
 
+	#services img {
+				background-size: 50% 50%;
+	      padding: 280px 0 160px 0;
+	}
+	
  .scroll-up {
    display: none !important;
  }
