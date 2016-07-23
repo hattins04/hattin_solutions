@@ -1116,11 +1116,8 @@ a,
 
 @media (max-width: 767px) {
 
-	#services img {
-				background-size: 50% 50%;
-	      padding: 280px 0 160px 0;
-	}
-	
+
+
  .scroll-up {
    display: none !important;
  }
