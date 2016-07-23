@@ -1109,9 +1109,7 @@ a,
 
 @media (max-width: 992px) {
 
-	#services {
-		background: url(../images/hero.png) no-repeat center fixed;
-		-webkit-background-size: cover;
+	#services img {
 				background-size: 50% 50%;
 	      padding: 280px 0 160px 0;
 	}
