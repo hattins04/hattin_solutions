@@ -1112,7 +1112,7 @@ a,
 	#services {
 		background: url(../images/hero.png) no-repeat center fixed;
 		-webkit-background-size: cover;
-				background-size: 100% 100%;
+				background-size: 75% 75%;
 	      padding: 280px 0 160px 0;
 	}
  .knob, .member {
