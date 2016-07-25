@@ -764,12 +764,16 @@ padding-top: -20;
 /* ---------------------------------------------- /*
  * Packages section (DEV, Marketing SEO Icons)
 /* ---------------------------------------------- */
+#packages {
+  background: #D6DAD2;
+}
+
 #packages .fa {
   color: #0DBF08;
   text-align: center;
 }
 .web {
-  padding-top: 35px;
+  padding-top: 55px;
   text-align: center;
 }
 .web h3 {

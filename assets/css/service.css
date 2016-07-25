@@ -1115,7 +1115,12 @@ a,
 }
 
 @media (max-width: 767px) {
-
+		#services {
+		background: url(../images/hero.png) no-repeat center fixed;
+		-webkit-background-size: 100%;
+				background-size: 100%;
+	      padding: 280px 0 160px 0;
+	}
 
 
  .scroll-up {
