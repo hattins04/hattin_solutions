@@ -746,19 +746,7 @@ position: relative;
 position: relative;
 padding-top: -20;
 }
-.transbox {
-  background: rgba(34, 34, 34, .7);
 
-}
-.transbox h2 {
-  color: #fff;
-}
-.transbox h3 {
-  color: #fff;
-}
-.transbox h4 {
-  color: #fff;
-}
 /* ---------------------------------------------- /*
  * About
 /* ---------------------------------------------- */
@@ -824,18 +812,18 @@ padding-top: -20;
 	margin: 0 0 40px;
 }
  .panel-body h3 {
-  color: #0DBF08;
   -webkit-text-stroke: none !important;
 
 }
 .panel-body h4 {
-  color: #fff;
+   color: #0BCB05;
 }
+
 .panel-body a:link {
   color: #fff;
 }
 .panel-body a:hover {
-  color: #757272;
+  color: #9FD961;
   text-decoration: none;
 }
 .service .icon {
