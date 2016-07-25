@@ -1094,7 +1094,13 @@ a,
 /* ---------------------------------------------- /*
 * Media
 /* ---------------------------------------------- */
-@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) {
+	#services {
+background: url(../images/hero.png) no-repeat center fixed;
+-webkit-background-size: 50%;
+		background-size: 50%;
+		padding: 280px 0 160px 0;
+}
 
 }
 @media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
@@ -1115,12 +1121,7 @@ a,
 }
 
 @media (max-width: 767px) {
-		#services {
-		background: url(../images/hero.png) no-repeat center fixed;
-		-webkit-background-size: 100%;
-				background-size: 100%;
-	      padding: 280px 0 160px 0;
-	}
+
 
 
  .scroll-up {
