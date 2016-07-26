@@ -1105,7 +1105,7 @@ a,
 }
 @media (min-width:481px) {
 		#services {
-background: url(../images/hero.png) no-repeat center fixed;
+background: url(../images/hero.png) no-repeat center;
 -webkit-background-size: cover;
 		background-size: cover;
 
@@ -1119,7 +1119,7 @@ background: url(../images/hero.png) no-repeat center fixed;
 }
 @media (min-width:641px) {
 	#services {
-background: url(../images/hero.png) no-repeat center fixed;
+background: url(../images/hero.png) no-repeat center;
 -webkit-background-size: cover;
 		background-size: cover;
 }
