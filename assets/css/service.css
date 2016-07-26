@@ -765,10 +765,11 @@ a,
  * Service
 /* ---------------------------------------------- */
 #services {
-	background: url(../images/hero.png) no-repeat center fixed;
-	-webkit-background-size: cover;
+	background: no-repeat center fixed !important;
+  z-index: auto !important;
+  padding: 260px 0 320px 0;
+  text-align: center;	-webkit-background-size: cover;
 			background-size: cover;
-      padding: 280px 0 160px 0;
 }
 #services h2 {
   color: #E3061A;
@@ -780,7 +781,7 @@ a,
  -webkit-text-stroke: 1px #636161;
 }
 #services p {
-  color: #fff;
+  color: #CBC8C8;
   -webkit-text-stroke: 1px #494848;
   font-size: 20px;
   font-weight: 600;
