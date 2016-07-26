@@ -1234,7 +1234,7 @@ padding-top: -20;
 @media (min-width:320px) {
    #services  {
   text-align: center;
-  background: #fff no-repeat center fixed;
+  background: #fff;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
@@ -1243,7 +1243,7 @@ padding-top: -20;
 @media (min-width:481px) {
   #services  {
   text-align: center;
-  background: #fff no-repeat center fixed;
+  background: #fff;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
@@ -1251,7 +1251,7 @@ padding-top: -20;
 @media (min-width:641px) {
   #services  {
   text-align: center;
-  background: #fff no-repeat center fixed;
+  background: #fff;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
