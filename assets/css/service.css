@@ -1101,17 +1101,16 @@ a,
 @media (min-width:481px) {
 		#services {
 background: url(../images/hero.png) no-repeat center fixed;
--webkit-background-size: 50%;
-		background-size: 50%;
-		padding: 280px 0 160px 0;
+-webkit-background-size: cover;
+		background-size: cover;
+		
 }
 }
 @media (min-width:641px) {
 	#services {
 background: url(../images/hero.png) no-repeat center fixed;
--webkit-background-size: 50%;
-		background-size: 50%;
-		padding: 280px 0 160px 0;
+-webkit-background-size: cover;
+		background-size: cover;
 }
 }
 @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
