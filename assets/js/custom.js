@@ -43,6 +43,7 @@
 
 			$('#intro').backstretch(['assets/images/bg3.jpg']);
 			$('#service-page').backstretch(['assets/images/desk.jpg']);
+			$('#service').backstretch(['assets/images/hero.png']);
 
 
 		/* ---------------------------------------------- /*

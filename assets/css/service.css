@@ -755,27 +755,31 @@ a,
  * About
 /* ---------------------------------------------- */
 
-
+#about-header {
+	background: url(../images/bg1.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+			background-size: cover;
+}
 
 /* ---------------------------------------------- /*
  * Service
 /* ---------------------------------------------- */
-#about-header {
+#services {
 	background: url(../images/hero.png) no-repeat center fixed;
 	-webkit-background-size: cover;
 			background-size: cover;
       padding: 280px 0 160px 0;
 }
-#about-header h2 {
+#services h2 {
   color: #E3061A;
   font-weight: bolder;
 }
-#about-header h3 {
+#services h3 {
   color: #fff;
   font-weight: 800;
  -webkit-text-stroke: 1px #636161;
 }
-#about-header p {
+#services p {
   color: #fff;
   -webkit-text-stroke: 1px #494848;
   font-size: 20px;
