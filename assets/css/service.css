@@ -1095,7 +1095,12 @@ a,
 * Media
 /* ---------------------------------------------- */
 @media (min-width:320px) {
-
+	#intro {
+		background: rgba(34, 34, 34, .2) !important;
+		z-index: auto !important;
+		padding: 60px 0 160px 0;
+		text-align: center;
+	}
 
 }
 @media (min-width:481px) {
@@ -1108,7 +1113,7 @@ background: url(../images/hero.png) no-repeat center fixed;
 #intro {
 	background: rgba(34, 34, 34, .2) !important;
 	z-index: auto !important;
-	padding: 160px 0 160px 0;
+	padding: 60px 0 160px 0;
 	text-align: center;
 }
 }
@@ -1121,7 +1126,7 @@ background: url(../images/hero.png) no-repeat center fixed;
 #intro {
 	background: rgba(34, 34, 34, .2) !important;
 	z-index: auto !important;
-	padding: 160px 0 160px 0;
+	padding: 60px 0 160px 0;
 	text-align: center;
 }
 }
