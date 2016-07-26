@@ -1103,7 +1103,13 @@ a,
 background: url(../images/hero.png) no-repeat center fixed;
 -webkit-background-size: cover;
 		background-size: cover;
-		
+
+}
+#intro {
+	background: rgba(34, 34, 34, .2) !important;
+	z-index: auto !important;
+	padding: 160px 0 160px 0;
+	text-align: center;
 }
 }
 @media (min-width:641px) {
@@ -1111,6 +1117,12 @@ background: url(../images/hero.png) no-repeat center fixed;
 background: url(../images/hero.png) no-repeat center fixed;
 -webkit-background-size: cover;
 		background-size: cover;
+}
+#intro {
+	background: rgba(34, 34, 34, .2) !important;
+	z-index: auto !important;
+	padding: 160px 0 160px 0;
+	text-align: center;
 }
 }
 @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
