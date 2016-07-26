@@ -787,7 +787,7 @@ padding-top: -20;
 /* ---------------------------------------------- /*
  * Service
 /* ---------------------------------------------- */
-#services  {
+#service  {
   text-align: center;
   background: url(../images/bg6.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
