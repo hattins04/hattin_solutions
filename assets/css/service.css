@@ -796,20 +796,7 @@ a,
 .service-title h4 {
   color: #099505;
 }
-.service {
-	text-align: center;
-	margin: 0 0 40px;
-  padding: 10px 0 100px;
-}
 
-.service .icon {
-	font-size: 32px;
-	color: #90C695;
-}
-
-.service h4 {
-	text-transform: uppercase;
-}
 
 /* ---------------------------------------------- /*
  * Portfolio
@@ -1063,6 +1050,26 @@ a,
 	-webkit-background-size: cover;
 			background-size: cover;
 }
+.service {
+	text-align: center;
+	margin: 0 0 40px;
+  padding: 10px 0 100px;
+}
+
+.service .icon {
+	font-size: 32px;
+	color: #90C695;
+}
+.service h3 {
+	color: #099505;
+}
+.service h4 {
+	text-transform: uppercase;
+	color: #9B9898;
+}
+.service li {
+	color: #fff;
+}
 /* ---------------------------------------------- /*
  * Panels
 /* ---------------------------------------------- */
@@ -1100,7 +1107,7 @@ a,
 
 }
 @media (min-width:481px) {
-	
+
 
 }
 @media (min-width:641px) {
