@@ -1,10 +1,10 @@
 <?php
 
 // configure
-$from = 'info@mygreatsite.com';
+$from = '';
 $sendTo = 'sam_hattin@icloud.com';
 $subject = 'New message from contact form';
-$fields = array('name' => 'First Name', 'surname' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email','city' => 'City','province' => 'Province', 'payment' => 'Monthly Payment'); // array variable name => Text to appear in email
+$fields = array('name' => 'Full Name', 'surname' => 'Last Name', 'email' => 'Email'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted.';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
