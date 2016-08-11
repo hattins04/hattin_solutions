@@ -1,42 +1,27 @@
 <?php
 
-// configure
-$from = '';
-$sendTo = 'sam_hattin@icloud.com';
-$subject = 'New message from contact form';
-$fields = array('name' => 'Full Name', 'surname' => 'Last Name', 'email' => 'Email'); // array variable name => Text to appear in email
-$okMessage = 'Contact form successfully submitted.';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+	// Contact
+	$to = 'sam_hattin@icloud.com';
+    $subject = 'Hattin Solutions New Message';
 
-// let's do the sending
+	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
+   		$name    = $_POST['c_name'];
+    	$from    = $_POST['c_email'];
+    	$message = $_POST['c_message'];
 
-try
-{
-    $emailText = "You have new message from contact form\n=============================\n";
+		if (mail($to, $subject, $message, $from)) {
+			$result = array(
+				'message' => 'Thanks for contacting us!',
+				'sendstatus' => 1
+				);
+			echo json_encode($result);
+		} else {
+			$result = array(
+				'message' => 'Sorry, something is wrong',
+				'sendstatus' => 1
+				);
+			echo json_encode($result);
+		}
+	}
 
-    foreach ($_POST as $key => $value) {
-
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
-        }
-    }
-
-    mail($sendTo, $subject, $emailText, "From: " . $from);
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
-}
-catch (\Exception $e)
-{
-    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-else {
-    echo $responseArray['message'];
-}
+?>
